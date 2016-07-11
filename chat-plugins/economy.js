@@ -4,13 +4,13 @@ let fs = require('fs');
 let path = require('path');
 
 let shop = [
-	['Symbol', 'Buys a custom symbol to go infront of name and puts you at top of userlist. (Temporary until restart, certain symbols are blocked)', 5],
-	['Fix', 'Buys the ability to alter your current custom avatar or trainer card. (don\'t buy if you have neither)', 10],
-	['Avatar', 'Buys an custom avatar to be applied to your name (You supply. Images larger than 80x80 may not show correctly)', 20],
-	['League Room', 'Purchases a room at a reduced rate for use with a league.  A roster must be supplied with at least 10 members for this room.', 25],
-	['Trainer', 'Buys a trainer card which shows information through a command. (You supply, can be refused)', 40],
-	['Staff Help', 'Staff member will help set up roomintros and anything else needed in a room. Response may not be immediate.', 50],
-	['Room', 'Buys a chatroom for you to own. (within reason, can be refused)', 100]
+	['Símbolo', 'Compra un símbolo personalizado que aparecerá al lado de tu nick en la lista de usuarios. (Temporal, se borrará en el siguente reinicio del server).', 5],
+	['Arreglo', 'Comprando este objeto podras editar cualquier objeto de esta tienda, obviamente antes de comprar este articulo deberas tener un objeto para editar', 10],
+	['Avatar', 'Compra el derecho a un Avatar personalizado, deberas especificar una imagen propia (Se recomienda que las medidas de la imagen sean de 80x80)', 20],
+	['Sala de Liga', 'Compra una Sala de Liga, debe contener mínimo 12 miembros.', 25],
+	['TC', 'Compras el derecho a una "Tarjeta de Entrenador personalizada". Puedes hablar con un admin para su creación.', 40],
+	['Ayuda de Staff', 'Compra el derecho a que el staff le de ayuda inmediata a alguna duda.', 50],
+	['Sala', 'Compra tu propia Sala Chat en el Servidor. Dicha sala debera ceñirse igualmente a las reglas del Servidor.', 100]
 ];
 
 let shopDisplay = getShopDisplay(shop);
